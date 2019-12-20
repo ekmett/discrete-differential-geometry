@@ -20,6 +20,9 @@ import qualified Data.Map as M
 import qualified Data.List as L
 import qualified Prob as P
 import qualified Arr as A
+import qualified ChainGraded as CG
+import qualified ChainUngraded as CUG
+import qualified ChainFromFreeAb as CAB
 import Data.Proxy
 import Data.Void
 
@@ -348,3 +351,6 @@ main :: IO ()
 main = do
   mainForms
   A.main
+  CG.main
+  CUG.main
+  CAB.main
