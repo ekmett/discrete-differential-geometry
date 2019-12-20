@@ -20,6 +20,6 @@ executable discrete-diffgeo
   main-is:             Main.hs
   other-modules:       Prob, Arr
   -- other-extensions:
-  build-depends:       base ^>=4.12.0.0, containers
+  build-depends:       base >=4.12.0.0 && < 4.14, containers
   -- hs-source-dirs:
   default-language:    Haskell2010
